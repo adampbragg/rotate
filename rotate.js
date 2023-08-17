@@ -7,7 +7,7 @@ function rotate(picture, direction) {
   while (newPictureRows--) { newPicture.push([]) }
   // new picture defined
 
-  const reversedPositions = [];         // flip the direction of the indexes to use for replacememt
+  const reversedPositions = [];         // flip the direction of the indexes to use for replacement
   let revPosCount = dir ? cols : rows;  // choose which indexes to use depending on the direction of rotation
   while (revPosCount--) reversedPositions.push(revPosCount);
 
